@@ -1,0 +1,160 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+.mylogo{
+	height:50px;
+	float:left;
+	padding:13px;
+}
+
+#myheader{
+	height:80px;
+	width:100%;
+	background-color:green;
+	overflow:hidden;
+	
+}
+
+.myspan{
+	float:left;
+}
+
+.myspan1{
+	float:left;
+	margin-top:30px;
+	font-size:20px;
+	color:gray;
+}
+
+#logo{
+	display:block;
+}
+
+#mylogin{
+	float:right;
+}
+
+#mylogin ul li{
+	display:block;
+	float:left;
+	padding:0 10px;
+	font-size:20px;
+	color:gray;
+	
+}
+
+#mylogin ul{
+	
+	padding:13px;
+}
+.mygratis{
+	font-size:20px;
+	color:blue;
+}
+#gratis{
+	
+	float:left;
+	margin-top:30px;
+	margin-left:25%;
+}
+
+#contenedor{
+	display:block;
+	overflow:hidden;
+	
+}
+
+#izq{
+	float:left;
+	
+	width:17%;
+}
+
+#cen{
+	
+	float:left;
+	margin-left:5px;
+}
+
+#der{
+	background-color:aqua;
+	float:left;
+}
+
+.myul{
+	list-style-type: none;
+	background-color:RGB(5,70,57);
+	color:gray;
+	margin-left:-20px;
+	
+}
+
+.myli{
+	list-style-type: none;
+}
+
+
+
+.mostrar {
+    max-height:500px;
+ 
+ 
+}
+
+.myul li{
+	margin:5px;
+	padding:5px;
+}
+
+nav {
+  
+  
+     max-height:0px;
+  overflow:hidden;
+  
+ 
+}
+
+#menu nav ul li{
+	display:block;
+	background-color:RGB(5,70,57);
+	margin:1px;
+	color:gray;
+	margin-left:-8px;
+}
+
+.mostrars{
+	max-height:500px;
+}
+.mostrart{
+	max-height:500px;
+}
+
+#cen{
+	width:62%;
+	margin-top:16px;
+}
+.myclase{
+	margin-left:35%;
+	font-size:25px;
+}
+
+.mya{
+	float:left;
+}
+
+.tamano{
+	height:25px;
+	margin-left:5px;
+}
+p{
+	font-size:17px;
+	font-family:Times New Roman;
+}
+
+#codigo{
+	background-color:red;
+}
+

@@ -1,0 +1,107 @@
+#derecha{
+	width:50%;
+	background-color:green;
+	float:right;
+}
+#izquierda{
+	
+	width:50%;
+	float:left;
+	
+}
+#tablas{
+	margin-left:57px;
+	
+	
+}
+
+#buscar{
+	border-radius:5px;
+	background-color:#CACFD2;
+	width:120px;
+	height:54px;
+	margin-left:5px;
+}
+
+#barra{
+	width:75%;
+}
+
+#files{
+	opacity:0;
+	
+	
+}
+
+#primero{
+	background-color:#CACFD2;
+	width:100%;
+	height:60px;
+	display:inline-block;
+	text-align:justify;
+	padding:8px;
+	overflow:hidden;
+	
+	
+}
+#medio{
+	border:1px;
+	float:left;
+	margin-right:50px;
+	
+	margin-left:3%;
+	display:inline-block;
+	overflow:hidden;
+}
+
+
+
+
+
+#derecha2{
+	float:left;
+	width:35%;
+	background-color:red;
+}
+
+
+
+#tabla{
+	float:left;
+	width:65%;
+	
+	
+}
+
+
+
+#comdiv{
+	background-color:#D0D3D4;
+	border-radius:5px;
+	margin-top:20px;
+	
+	
+}
+
+#comnombre{
+	border-radius:5px;
+	background-color:#CACFD2;
+	color:white;
+	margin-left:20px;
+	margin-top:20px;
+	
+}
+
+#formulario{
+	margin-left:57px;
+
+}
+
+#comentariosform{
+	margin-left:40px;
+	margin-top:400px;
+}
+
+#margen{
+	min-height:200px;
+}

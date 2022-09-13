@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="title" content="Caemkob.com">
+		<meta name="description" content="C++ e introduccion a la poo">
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link href="css.css" media="screen" type="text/css" rel="stylesheet">
+		<script src="prismcoy.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="prismcoy.css" media="screen" type="text/css"/>
+		<link rel="shorcut icon" href="caemkoblogo1.png">
+		<title>Caemkob.com</title>
+	</head>
+	<body>
+		<header id="myheader" class="container">
+			<a id="logo" href="index.html" >
+				<span class="mylogo"><img src="caemkoblogo.png" class="logo"></span>
+				<span class="mysitio">Caemkob.com</span>
+			</a>
+			
+			<nav id="redes">
+				<ul>
+					<li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://caemkob.com" class="fa fa-linkedin"></a></li>
+					<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://caemkob.com" class="fa fa-facebook"></a></li>
+					<li><a href="https://api.whatsapp.com/send?text=escola%20inform%C3%A1tica%20i%20disseny%20https://caemkob.com" class="fa fa-whatsapp"></a></li>
+					<li><a href="https://twitter.com/intent/tweet?text= escola%20inform%C3%A1tica%20i%20disseny&url=https://caemkob.com" class="fa fa-twitter"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<nav id="intro" class="container">
+		<ul>
+			<li><a href="c++.html">Curso C++</a></li>
+		</ul>
+		</nav>
+		<div id="divc" class="container">
+		<h2>Hola Mundo</h2>
+		<br><p>nuestro primer programa en c++ va ser el hola mundo y es el siguiente</p></br>
+		<pre><code class="language-cpp">
+			#include &lt;iostream&gt;
+			int main(){
+				std::cout  &lt;&lt; "hola Mundo" &lt;&lt; std::endl;
+				return 0;
+			}
+		</code></pre>
+		<br><p>en la primera linea le decimos al compilador que incluya las directivas del flujo de entrada y salida.En la seguinda linea 
+		llamamos a la funcion principal en la tercera hay salida de datos hacia la pantalla esta linea significa imprimir por pantalla "hola mundo"
+		y con la cuarta linea lo que hacemos es decirle al programa que la funcion main ha terminado con valor 0 si no se indica el valor devuelto
+		este queda indefinido
+		</p></br>
+		<h2>Variables</h2>
+		<br><p>
+		las variables son un espacio de memoria asignado para tomar un valor durante la ejecucion de un programa
+		estas pueden ser de diferentes tipos.los princpales son:
+		_Numericas (2,25.300,etc) int 
+		_caracter(%,#,a,b,etc) char
+		_cadena de caracteres("hola Mundo") *char
+		_vector (A[5]) int char *char
+		_booleanos(false, true) bool
+		</p></br>
+		<br><p>En c++ definimos a una variable de la siguiente manera</p></br>
+		<pre><code class="language-cpp">
+			int mivariable = 0;
+		</code></pre>
+		<h2>Constantes</h2>
+		<br><p>las constantes son un espaciod e memoria que se le asigna para ser utilizadas durante la ejecucion de un programa
+		es igual a las variables nada mas que estas no alteran su valor durante la ejecucion de un programa la definimos de esta manera</p></br>
+		<pre><code class="language-cpp">
+			const float miconstante = 3.1415;
+		</code></pre>
+		<h2>control de flujo</h2>
+		<h3>sentencia if else</h3>
+		<pre><code class="language-cpp">
+			if(condicion){
+				sentencia1;
+				}
+			else {
+				sentencia2;
+			}
+		</code></pre>
+		<br><p>la sentencia if se la utiliza para optar entre dos caminos diferentes en la ejecucion del programa si es que se cumple o no
+		determinada condicion.
+		</p></br>
+		<br><p>como vemos en el ejemplo si(if) la condicion se cumple se ejecuta la sentencia1 sino(else) la que se cumple es la sentencia2. 
+		</p></br>
+		<h3>
+		</div>
+	</body>
+</html>

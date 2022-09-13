@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="nuevo.js"></script>
+	<link href="css.css" rel="stylesheet">
+	</head>
+	<body>
+	<div id="drag" class="drag-area" onmouseover = "funcion()" onmouseout = "func()" ondrop="dropfiles(event)" ondragover="dragfiles(event)">
+		<script src="javascript.js"></script>
+		<table id="tabla" class="table">
+		<thead>
+			<tr>
+			<th width="40%">File name</th>
+			<th width="40%">size</th>
+			<th width="40%">type</th>
+		    </tr>
+		</thead>
+		<tbody>
+		</tbody>
+		</table>
+		<input type="file" id="files" hidden multiple />
+	</div>
+	
+	</body>
+</html>

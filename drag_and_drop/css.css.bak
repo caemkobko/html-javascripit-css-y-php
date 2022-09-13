@@ -1,0 +1,44 @@
+#drag{
+	border:1px solid #d0d0d0;
+	margin-left : 250px;
+	margin-right:250px;
+	margin-top:200px;
+	min-height:150px;
+	width:450px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);   
+        
+}
+
+
+
+#drop_zone {
+  border: 5px solid blue;
+  width:  200px;
+  height: 100px;
+}
+
+
+	
+
+
+#myprogreso {
+  width: 70%;
+  height:15px;
+  background-color: grey;
+  margin:auto;
+  visibility:hidden;
+  border-radius:5px;
+  
+}
+
+#mybarra {
+  width: 1%;
+  height: 15px;
+  background-color: blue;
+  border-radius:5px;
+}
+
+#list{
+	width:25%;
+	height:25px;
+}

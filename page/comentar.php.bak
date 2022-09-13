@@ -1,0 +1,13 @@
+<?php
+	
+	$nombre = $_POST["usreg"];
+$correo = $_POST["correg"];
+$contrasena = $_POST["contreg"];
+$contrasenar= $_POST["repconreg"];
+$con=mysqli_connect('localhost','root','','usuarios');
+	mysqli_select_db($con,'usuarios');
+	$query = mysqli_query($con,'SELECT * FROM usuario');
+	$insertar="INSERT INTO usuario(contrasena,contrasenar,correo,id,nombre) VALUES ('$contrasena','$contrasenar','$correo','','$nombre')";
+	mysqli_query($con,$insertar);
+	echo "Pedro";
+?>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Título de la WEB</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la WEB">
+    <meta name="description" content="Descripción de la WEB"> 
+	
+	<style type="text/css">
+	#boton{
+	width:50px; height:25px; background-color:black;
+	}
+	#medio{
+		width:900px;
+		height:500px;
+		border: 2px solid #d0d0d0;
+	}
+	#variable{
+		border-color:blue;
+		border-radius:5px;
+	}
+	.myButton {
+color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #1C6EA4; }
+.myButton:active {
+background: #144E75; }
+	</style>
+	<script>
+	function cambiar(){
+	let element = document.getElementById('parrafo');
+    
+    element.style.setProperty('font-size', '24px');
+    let variable = document.getElementById('variable');
+	element.style.color = variable.value;
+	if(variable.value == ""){
+		alert("hola");
+		}
+	}
+	</script>
+</head>  
+
+<body>    
+    <div id="boton">
+	</div>
+	<div id="medio" >
+	<p id="parrafo" >hola</p>
+	<input type="button" class="myButton" value="Click Me"/>
+	<label for="color">Codigo o Nombre de Color</label>
+	<input type="text" onchange="cambiar()" id="variable" value="" />
+	</div>
+</body>
+
+
+ 
+</html>

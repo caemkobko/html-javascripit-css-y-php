@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="title" content="Caemkob.com">
+		<meta name="viewport" content="width=divice-width, initial-scale=1.0"/>
+		<meta name="description" content="Inicio">
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link href="css.css" media="screen" type="text/css" rel="stylesheet">
+		<script src="prismcoy.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="prismcoy.css" media="screen" type="text/css"/>
+		<link rel="shorcut icon" href="clogo2.png">
+		<title>Caemkob.com</title>
+	</head>
+	<body>
+		<header id="myheader" >
+			<div id="arriba">
+				<div id="correo">Caemkobcontactos@gmail.com</div>
+				<div id="numero">+(54)3735612458</div>
+				<div id="redes">
+						<nav >
+				
+							<ul>
+								<li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://caemkob.com" class="fa fa-linkedin"></a></li>
+								<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://caemkob.com" class="fa fa-facebook"></a></li>
+								<li><a href="https://api.whatsapp.com/send?text=escola%20inform%C3%A1tica%20i%20disseny%20https://caemkob.com" class="fa fa-whatsapp"></a></li>
+								<li><a href="https://twitter.com/intent/tweet?text= escola%20inform%C3%A1tica%20i%20disseny&url=https://caemkob.com" class="fa fa-twitter"></a></li>
+							</ul>
+				
+						</nav>
+				</div>
+			</div>
+			<div id="medio">
+				<div id="ini">
+					<a id="logo" href="index.html" >
+						<span class="mylogo"><img src="clogo2.png" class="logo"></span>
+						<span class="mysitio">Caemkob.com</span>
+					</a>
+				</div>
+				
+			</div>
+			
+		</header>
+		<div id="mydiv1" class="container">
+		<h2 align="center">Curso de c++<h2>
+		<h3>Hola Mundo</h3>
+		<br><p>Nuestro primer programa en c++ va ser el hola mundo y es el siguiente:</p></br>
+		<pre><code class="language-cpp">
+			#include &lt;iostream&gt;
+			int main(){
+				std::cout  &lt;&lt; "hola Mundo" &lt;&lt; std::endl;
+				return 0;
+			}
+		</code></pre>
+		<br><p>En la primera linea le decimos al compilador que incluya las directivas del flujo de entrada y salida (iostream). En la segunda linea 
+		llamamos a la funcion principal main. En la tercera linea hay salida de datos hacia la pantalla esta linea significa imprimir por pantalla "hola mundo"
+		y con la cuarta linea lo que hacemos es decirle al programa que la funcion main ha terminado con valor 0 si no se indica el valor devuelto
+		este queda indefinido.
+		</p></br>
+		<h2>Tipos de datos</h2>
+		<br><p>Los principales tipos de datos son los siguientes:</p></br>
+		<br>
+			<ul>
+				<li>Caracteres: char, wchar_t;</li>
+				<li>Enteros: short, int, long, long long;</li>
+				<li>Numeros en coma flotante: float, double, long double;</li>
+				<li>Booleanos: bool;</li>
+				<li>Vacio: void;</li>
+			</ul>
+		</br>
+		<h2>Operadores</h2>
+		<br>
+		<p>Operadores aritmeticos:</p>
+			<ul>
+				<li>"+" Suma</li>
+				<li>"-" Resta</li>
+				<li>"*" Multiplicacion</li>
+				<li>"/" Division</li>
+				<li>"%" Modulo</li>
+			</ul>
+		</br>
+		<br>
+		<p>Operadores de comparacion:</p>
+			<ul>
+				<li>"&lt;" Menor que</li>
+				<li>"&gt;" Mayor que</li>
+				<li>"&lt;=" Menor o igual que</li>
+				<li>"&gt;=" Mayor o igual que</li>
+				<li>"==" Igual que</li>
+				<li>"!=" Distinto que</li>
+			</ul>
+		</br>
+		<br>
+		<p>Operadores de logicos:</p>
+			<ul>
+				<li>"!" Negacion logica</li>
+				<li>"&&" Y logico</li>
+				<li>"||" O logico</li>
+			</ul>
+		</br>
+		<h2>Variables</h2>
+		<br><p>
+		Las variables son un espacio en memoria asignado para tomar un valor durante la ejecucion de un programa. Este valor puede ser modificado
+		durante la ejecucion del programa.		
+		</p></br>
+		<br><p>En c++ definimos a una variable de la siguiente manera:</p></br>
+		<pre><code class="language-cpp">
+			int mivariable = 0;
+		</code></pre>
+		<h2>Constantes</h2>
+		<br><p>Las constantes son un espacio de memoria que se le asigna para ser utilizadas durante la ejecucion de un programa
+		es igual a las variables nada mas que estas no alteran su valor durante la ejecucion de un programa la definimos de esta manera:</p></br>
+		<pre><code class="language-cpp">
+			const float miconstante = 3.1415;
+		</code></pre>
+		<br><p>o bien:</p></br>
+		<pre><code class="language-cpp">
+			#define PI 3.1415;
+		</code></pre>
+		<h2 align="center">Control de flujo</h2>
+		<h3>Condicionales</h3>
+		<br>
+		<h3>Sentencia if else</h3>
+		</br>
+		<pre><code class="language-cpp">
+			if(condicion){
+				sentencia1;
+				}
+			else {
+				sentencia2;
+			}
+		</code></pre>
+		<br><p>La sentencia if se la utiliza para optar entre dos caminos diferentes en la ejecucion del programa si es que se cumple o no
+		determinada condicion.
+		Como vemos en el ejemplo si la condicion se cumple se ejecuta la sentencia1 sino la que se ejecuta es la sentencia2. 
+		</p></br>
+		<h3>Condicional switch</h3>
+		<pre><code class="language-cpp">
+			switch(opcion){
+				case valor1: instrucciones1;
+				break;
+				case valor2: instrucciones2;
+				break;
+				case valor3: instrucciones3;
+				break;
+				default: instrucciones por defecto;
+			}
+		</code></pre>
+		<br><p>
+		En la sentencia condicional switch tenemos lo siguiente : si la opcion toma el valor1 se ejecutan
+		las instrucciones a las que hace referencia el valor1; si la opcion toma el valor2 se ejecutan las instrucciones
+		contenidas por el valor2; lo mismo ocurre para el valor3. y si la opcion no es ninguna de las especificadas
+		se ejecutan las instrucciones por defecto marcadas con default.  
+		</p></br>
+		<br>
+		<h3>Ciclos o bucles</h3>
+		</br>
+		<br>
+		<h3>Sentencia repetitiva while</h3>
+		</br>
+		<pre><code class="language-cpp">
+			while(condicion){
+				instrucciones;
+				incremento;
+			}
+		</code></pre>
+		
+		<br><p>
+		En el ciclo while evaluamos la condicion si esta se cumple se ejecutara las instrucciones contenidas en el bloque de llaves.
+		Estas instrucciones se ejecutaran una y otra vez hasta la condicion sea falsa.
+		Ejemplo:
+		
+		</p></br>
+		<pre><code class="language-cpp">
+			int i=1;
+			while(i<=5){
+				cout &lt;&lt; "hola mundo";
+				i=i+1;
+			}
+		</code></pre>
+		<br><p>
+		En este pequeño ejemplo lo que ocurre es que se define la variable i con valor de 1. Luego en el while si i que vale 1 es menor o igual que 5
+		se ejecutara la instruccion escribir "hola mundo" por pantalla y se incrementara la variable i en uno. luego volvemos hacia arriba donde esta el while, i vale 2 ¿Se cumple la condicion i&lt;=5? ¿Si?
+		Entonces se vuelve a ejecutar las instrucciones contenidas en el bloque. Esto se repetira hasta que i sea mayor a 5 donde dara falsa la condicion. 
+		
+		</p></br>
+		<br><p>
+		<h3>Sentencia repetitiva do while</h3>
+		</p></br>
+		<pre><code class="language-cpp">
+			do{
+				instrucciones;
+				incremento;
+			}
+			while(condicion);
+		</code></pre>
+		<br><p>
+		En este ciclo lo que ocurre es algo similar al while pero en este caso se ejecutan primero las instrucciones y luego se evalua la condicion.
+		</p></br>
+		<br><p>
+		<h3>Sentencia repetitiva for</h3>
+		</p></br>
+		<pre><code class="language-cpp">
+			for(inicializacion; condicion ; incremento){
+				instrucciones;
+			}
+		</code></pre>
+		<br><p>ejemplo:</p></br>
+		<pre><code class="language-cpp">
+			for(i=1; i<=5 ; i++){
+				cout << "hola mundo";
+			}
+		</code></pre>
+		<br><p>
+		Lo que realiza este pequeño ejemplo es lo siguiente: Para i igual a 1 e i menor o igual a 5
+		con un incremento de i de uno en uno hacer las instrucciones del bloque.
+		</p></br>
+		</div>
+	</body>
+</html>

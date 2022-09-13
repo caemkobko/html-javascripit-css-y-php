@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Hola Mundo</title>
+<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<style type="text/css">
+
+
+</style>
+</head>
+
+<body>
+<form action="subir.php" method="post" enctype="multipart/form-data" >
+<div id="contenedor">
+<p align="center" color="white">Subir</p>
+<input type="file" value="Seleccionar" id="inpfil" name="files">
+</div>
+<input type="submit" value="SUBIR" >
+
+
+
+
+</form>
+<table border="1px. solid blue"  width="100%">
+
+<tr>
+	<th width="10%">celda 1</th>
+	<th width="60%">celda 2</th>
+	<th width="30%">celda 3</th>
+	
+</tr>
+<?php
+$archivos = scandir("subidas");
+for($i=2, $i<count($archivos),$i++)
+{
+?>
+<tr>
+    <th> 1 </th>
+	<td> <?php echo $archivos[$i] } ?></td>
+	<td> cont </td>
+	
+</tr>
+</table>
+
+
+
+</body>
+</html>
